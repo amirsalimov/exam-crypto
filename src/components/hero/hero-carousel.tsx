@@ -9,7 +9,7 @@ import {
 } from "../../components/ui/carousel";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { useStateManagment } from "../../state-managment/state";
+import { useStateManagment } from "../../contextState/state";
 
 export function CarouselPlugin() {
   const { state } = useStateManagment();

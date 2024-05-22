@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 import axios from "axios";
-import { useStateManagment } from "../../state-managment/state";
-import ChartTimeLine from "../charttimeline";
+import { useStateManagment } from "../../contextState/state";
+import ChartTimeLine from "../timeline";
 
 interface SeriesData {
   name: string;
